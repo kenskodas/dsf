@@ -60,7 +60,7 @@ MIDDLEWARE = [
     ]
 
 ROOT_URLCONF = 'config.urls'
-CSRF_TRUSTED_ORIGINS = [    'http://asanodeme.org',    'https://asanodeme.org',"https://instagram.com"]
+CSRF_TRUSTED_ORIGINS = [    'http://asanodenis.net',    'https://asanodenis.net',"https://instagram.com"]
 
 
 TEMPLATES = [
@@ -131,7 +131,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
   
-STATIC_ROOT = '/home/asanodeme.org/public_html/dsf/asanpay/static'
+STATIC_ROOT = '/home/asanodenis.net/public_html/dsf/asanpay/static'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Default primary key field type
